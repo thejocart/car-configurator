@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/Satoshi-Regular.woff2") format("woff2"),
+      url("/src/assets/fonts/Satoshi-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/Satoshi-Medium.woff2") format("woff2"),
+      url("/src/assets/fonts/Satoshi-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/Satoshi-Bold.woff2") format("woff2"),
+      url("/src/assets/fonts/Satoshi-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/Satoshi-Black.woff2") format("woff2"),
+      url("/src/assets/fonts/Satoshi-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 46.2px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 41.6px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 33.6px;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  h6 {
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 400;
+  }
+}
